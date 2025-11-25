@@ -77,9 +77,11 @@ public class Exercicio57 {
 
 
 
+                        } else {
+                            System.out.println("Item não encontrado!!");
                         }
-
-
+                    } else {
+                        System.out.println("Lista VAZIA!");
                     }
                     break;
 
