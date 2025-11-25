@@ -105,9 +105,14 @@ public class Exercicio57 {
                         System.out.println("Lista VAZIA!");
                     }
 
+                case 6 :
+                    System.out.println("Encerrando o programa!");
+                    break;
+
                 default:
                     System.out.println("Opção incorreta!!");
                     break;
+
 
             }
 
@@ -115,8 +120,6 @@ public class Exercicio57 {
 
 
         } while (opc != 6);
-
-        System.out.println("Saindo....");
         join.close();
 
     }
