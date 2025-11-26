@@ -47,7 +47,7 @@ public class Exercicio57 {
 
                 // Remover item da lista
                 case 2:
-                    if (listaConteudo.size() > 0) {
+                    if (!listaConteudo.isEmpty()) {
                         System.out.print("Digite nome do item p/ remover: ");
                         entradaDados = join.next();
                         if (listaConteudo.contains(entradaDados)) {
@@ -63,7 +63,7 @@ public class Exercicio57 {
 
                 // Alternar item por uma nova entrada
                 case 3:
-                    if (listaConteudo.size() > 0) {
+                    if (!listaConteudo.isEmpty()) {
                         System.out.print("Digite nome do item p/ alternar: ");
                         entradaDados = join.next();
 
@@ -90,7 +90,7 @@ public class Exercicio57 {
                 case 4:
                     System.out.println("--- Listas de items ---");
 
-                    if (listaConteudo.size() > 0) {
+                    if (!listaConteudo.isEmpty()) {
                         for (int j = 0; j < listaConteudo.size(); j++) {
                             System.out.printf("Cod: %S | Item: %s\n", j, listaConteudo.get(j));
                         }
@@ -100,7 +100,7 @@ public class Exercicio57 {
                     break;
 
                 case 5:
-                    if (listaConteudo.size() > 0) {
+                    if (!listaConteudo.isEmpty()) {
                         System.out.println("Limpando a lista");
                         listaConteudo.clear();
                     } else {
